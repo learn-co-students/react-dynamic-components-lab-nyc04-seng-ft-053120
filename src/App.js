@@ -8,12 +8,13 @@ class App extends Component {
   // Make note of what prop we are initially passing to `ColorBox` below!
   
   render() {
+    let box = "square"
     return (
       <div id="app">
           <BlogPost />
           <div id="seperator"></div>
           <div className="wrapper">
-            <ColorBox opacity={1} />
+            <ColorBox opacity={1} box="square" />
           </div>
       </div>
     )
